@@ -14,4 +14,6 @@ This server acts as the primary hypervisor node.
 
 ## ⚙️ Software Stack
 * **Hypervisor:** Proxmox VE (Virtual Environment)
+- **Tailscale:** Configured `mv01` as an Exit Node.
+- **AdGuard:** Added to the stack for ad blocking.
 * *More services to be documented...* :D

@@ -10,6 +10,7 @@
 - **proxmox:** for dockers and virtualization.
 - **Tailscale:** Configured `mv01` as an Exit Node.
 - **AdGuard:** Added to the stack for ad blocking.
+- **NextCloud** Added to for private storage.
 
 
 ## 2026-01-23 

@@ -12,5 +12,10 @@
 - **AdGuard:** Added to the stack for ad blocking.
 
 
-23.1 
-added nextcloud for free cloud storage 
+## 2026-01-23 
+-added nextcloud for free cloud storage 
+
+## 2026-02-08
+- Fixed internal networking issues by enabling Tailscale subnet routing on the Arch client.
+- Successfully connected both Desktop (Arch) and Mobile (Android) clients to the self-hosted instance.
+- Configured specific folder synchronization

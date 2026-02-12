@@ -24,3 +24,8 @@
 
 ## 2026-02-11
 - Made a new Ubuntu Server 24.04 LTS VM on the MS-01 for Linux troubleshooting practice and monitoring.
+
+## 2026-02-12
+- set up a dedicated LXC container `dev-server` for school/coding.
+- figured out how to run Docker inside LXC.
+- deployed Code-Server via docker-compose so i can run VS Code in the browser.

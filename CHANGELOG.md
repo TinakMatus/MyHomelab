@@ -29,3 +29,10 @@
 - set up a dedicated LXC container `dev-server` for school/coding.
 - figured out how to run Docker inside LXC.
 - deployed Code-Server via docker-compose so i can run VS Code in the browser.
+
+## 2026-02-21
+Built a high-performance Windows 11 VM on the MS-01 in preparation for RTX A2000 GPU passthrough.
+Configured Proxmox for optimal gaming VM performance (Host CPU type, disabled RAM ballooning, VirtIO SCSI).
+Configured Proxmox host for PCIe passthrough by enabling IOMMU in GRUB (`intel_iommu=on iommu=pt`).
+Set up Parsec on both the Windows VM and Arch Linux client for low-latency remote use.
+Pre-downloaded NVIDIA drivers and GPU-Z, ready for the physical GPU installation.

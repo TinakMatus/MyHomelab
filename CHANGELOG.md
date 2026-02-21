@@ -36,3 +36,10 @@
 - Configured Proxmox host for PCIe passthrough by enabling IOMMU in GRUB (`intel_iommu=on iommu=pt`).
 - Set up Parsec on both the Windows VM and Arch Linux client for low-latency remote use.
 - Pre-downloaded NVIDIA drivers and GPU-Z, ready for the physical GPU installation.
+
+2026-02-22
+
+- Successfully completed the physical RTX A2000 hardware installation and booted the Windows 11 VM with full PCIe GPU passthrough.
+- Stress tested the Parsec remote streaming setup to evaluate hardware encoding and network latency.
+- Used a ThinkPad T480 as the remote client device to validate the setup the experience was flawlessly smooth with zero noticeable input lag.
+- Monitored GPU thermals and power states and discovered exactly how loud a 3000 RPM blower fan sounds in a tiny chassis.

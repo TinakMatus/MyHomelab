@@ -25,8 +25,7 @@ This server acts as the primary hypervisor node.
 ## [2026-01-19] - Initial Setup & Network Fixes
 
 <details>
-<summary>## 2026-02-23</summary>
-## 2026-01-23
+<summary>## 2026-01-23</summary>
 - Deployed a self-hosted Nextcloud container on Proxmox for private cloud storage.
 - Established a dedicated storage backend to ensure full data ownership and privacy.
 </details>

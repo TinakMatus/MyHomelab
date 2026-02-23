@@ -37,9 +37,14 @@
 - Set up Parsec on both the Windows VM and Arch Linux client for low-latency remote use.
 - Pre-downloaded NVIDIA drivers and GPU-Z, ready for the physical GPU installation.
 
-2026-02-22
-
+## 2026-02-22
 - Successfully completed the physical RTX A2000 hardware installation and booted the Windows 11 VM with full PCIe GPU passthrough.
 - Stress tested the Parsec remote streaming setup to evaluate hardware encoding and network latency.
-- Used a ThinkPad T480 as the remote client device to validate the setup the experience was flawlessly smooth with zero noticeable input lag.
-- Monitored GPU thermals and power states and discovered exactly how loud a 3000 RPM blower fan sounds in a tiny chassis.
+- Used a ThinkPad T480 as the remote client device to validate the setup
+
+## 2026-02-23
+- Deployed a new Ubuntu Server 24.04 LTS VM on Proxmox dedicated to AI and LLM workloads.
+- Reconfigured the RTX A2000 PCIe passthrough to work with the new Linux VM.
+- Installed Ollama and Open WebUI to host local AI models.
+- Verified successful GPU inference by generating a complex, long-form 5-act play.
+- Discovered a persistent bug where the GPU remains stuck in the P0 power state (35W+) with a "ghost" 1MiB VRAM usage after the first AI task.

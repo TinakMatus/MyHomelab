@@ -5,7 +5,7 @@ Documentation of my personal server infrastructure and networking lab.
 ## 🖥️ Hardware: Minisforum MS-01 Workstation
 This server acts as the primary hypervisor node.
 
-* **CPU:** Intel Core i5-12450H (8 Cores / 12 Threads)
+* **CPU:** Intel Core i5-12450H (8 Cores / 16 Threads)
 * **RAM:** 64 GB DDR5
 * **GPU** NVIDIA RTX A2000 (6GB)
 * **Storage:**
@@ -17,7 +17,7 @@ This server acts as the primary hypervisor node.
 * **Hypervisor:** Proxmox VE (Virtual Environment)
 - **Tailscale:** Configured `mv01` as an Exit Node.
 - **AdGuard:** Added to the stack for ad blocking.
-* *More services to be documented...* :D
+
 
 
 ## HomeLab Timeline
@@ -79,12 +79,25 @@ This server acts as the primary hypervisor node.
 - Stress tested the Parsec remote streaming setup to evaluate hardware encoding and network latency.
 
 - Used a ThinkPad T480 as the remote client device to validate the setup
+
     </details>
 
 <details>
 <summary>## 2026-02-23</summary>
 - Deployed a new Ubuntu Server 24.04 LTS VM on Proxmox dedicated to AI and LLM workloads.
+ 
 - Reconfigured the RTX A2000 PCIe passthrough to work with the new Linux VM.
+
 - Installed Ollama and Open WebUI to host local AI models.
+
 - Discovered a persistent bug where the GPU remains stuck in the P0 power state (35W+) with a "ghost" 1MiB VRAM usage
+
 </details>
+
+<details>
+<summary>## 2026-02-24</summary>
+- Purged the entire Xorg/GUI stack while troubleshooting, resulting in a cleaner, fully headless server environment.
+ 
+- Confirmed the system is stable under 98% GPU load despite the high idle power draw.
+</details>
+

@@ -25,15 +25,14 @@ This server acts as the primary hypervisor node.
 
 
 <details>
-<summary>## 2026-01-23 Nextcloud</summary>
-
+<summary>## 2026-01-23 Nextcloud Cloud Storage</summary>
 - Deployed a self-hosted Nextcloud container on Proxmox for private cloud storage.
+
 - Established a dedicated storage backend to ensure full data ownership and privacy.
     </details>
 
 <details>
-<summary>## 2026-02-08</summary>
-
+<summary>## 2026-02-08 Tailscale Subnet & Sync Fixes</summary>
 - Fixed internal networking issues by enabling Tailscale subnet routing on the Arch client.
 
 - Successfully connected both Desktop (Arch) and Mobile (Android) clients to the self-hosted instance.
@@ -42,13 +41,13 @@ This server acts as the primary hypervisor node.
     </details>
 
 <details>
-<summary>## 2026-02-11</summary>
+<summary>## 2026-02-11 Ubuntu Troubleshooting VM</summary>
 
 - Made a new Ubuntu Server 24.04 LTS VM on the MS-01 for Linux troubleshooting practice and monitoring.
     </details>
 
 <details>
-<summary>## 2026-02-12</summary>
+<summary>## 2026-02-12 LXC Dev Server & Code-Server</summary>
 
 - set up a dedicated LXC container dev-server for school/coding.
 

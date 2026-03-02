@@ -68,7 +68,7 @@ This server acts as the primary hypervisor node.
 
 - Set up Parsec on both the Windows VM and Arch Linux client for low-latency remote use.
 
-- Pre-downloaded NVIDIA drivers and GPU-Z, ready for the physical GPU installation.
+- Pre-downloaded NVIDIA drivers and GPU-Z ready for the physical GPU installation.
 </details>
 
 <details>
@@ -90,14 +90,24 @@ This server acts as the primary hypervisor node.
 
 - Installed Ollama and Open WebUI to host local AI models.
 
-- Discovered a persistent bug where the GPU remains stuck in the P0 power state (35W+) with a "ghost" 1MiB VRAM usage
+- Discovered a persistent bug where the GPU remains stuck in the P0 power state (35W+) with a ghost 1MiB VRAM usage
 
 </details>
 
 <details>
 <summary>## 2026-02-24</summary>
-- Purged the entire Xorg/GUI stack while troubleshooting, resulting in a cleaner, fully headless server environment.
+- Purged the entire Xorg/GUI stack while troubleshooting, resulting in a cleaner fully headless server environment.
  
 - Confirmed the system is stable under 98% GPU load despite the high idle power draw.
+</details>
+
+<details>
+<summary>## 2026-03-02 - GPU Physical Mod & Optimization</summary>
+- modded my rtx a2000 from a dual slot heater to a single slot one so it actually fits in the ms01.
+
+- Optimized GPU fan curves; achieved a balance where the card remains within safe thermal limits while significantly reducing noise levels.
+
+- Created a full Proxmox backup of the Windows 11 VM to the secondary SSD to ensure a clean recovery point
+
 </details>
 

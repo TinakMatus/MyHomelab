@@ -109,4 +109,13 @@ This server acts as the primary hypervisor node.
 - Created a full Proxmox backup of the Windows 11 VM to the secondary SSD to ensure a clean recovery point
 
 </details>
+<details>
+<summary>## 2026-03-20 - Thermal Optimization: Noctua Fan Integration</summary>
 
+ -Integrated an external Noctua cooling fan to directly target the RTX A2000.
+ 
+ -Successfully reduced the GPUs idle temperature from 50C down to 32C while idle.
+ 
+ -Improved overall thermal efficiency and acoustic performance during lowload operations.
+
+</details>

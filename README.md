@@ -82,7 +82,7 @@ This server acts as the primary hypervisor node.
     </details>
 
 <details>
-<summary>## 2026-02-23</summary>
+<summary>## [2026-02-23] - AI VM, Ollama & Power Bug</summary>
 - Deployed a new Ubuntu Server 24.04 LTS VM on Proxmox dedicated to AI and LLM workloads.
  
 - Reconfigured the RTX A2000 PCIe passthrough to work with the new Linux VM.
@@ -94,7 +94,7 @@ This server acts as the primary hypervisor node.
 </details>
 
 <details>
-<summary>## 2026-02-24</summary>
+<summary>## [2026-02-24] - Headless Server Purge</summary>
 - Purged the entire Xorg/GUI stack while troubleshooting, resulting in a cleaner fully headless server environment.
  
 - Confirmed the system is stable under 98% GPU load despite the high idle power draw.

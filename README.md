@@ -119,3 +119,14 @@ This server acts as the primary hypervisor node.
  -Improved overall thermal efficiency and acoustic performance during lowload operations.
 
 </details>
+
+<details>
+<summary>## 2026-04-18 - De-Googling Initiative: Custom Search Aggregator (degoog)</summary>
+
+ Deployed the degoog search aggregator as a lightweight modular alternative to mainstream search engines.
+ 
+ Configured the environment to query multiple engines from one centralized selfhosted interface. 
+
+ Note: Currently treating this as an experimental/beta deployment in the lab environment rather than a full production service.
+
+</details>
